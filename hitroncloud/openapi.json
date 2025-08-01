@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API 文档",
+    "description": "API 文档示例",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com",
+      "description": "生产环境"
+    }
+  ],
+  "paths": {},
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}
